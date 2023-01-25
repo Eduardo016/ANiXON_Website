@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>reveal.js – The HTML Presentation Framework</title>
+
+    <meta
+      name="description"
+      content="A framework for easily creating beautiful presentations using HTML"
+    />
+    <meta name="author" content="Hakim El Hattab" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/black.css" id="theme" />
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+
+    <style>
+      td,
+      th {
+        border: solid;
+        color: white;
+      }
+      a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="reveal">
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section>
+          <b>Data Kelompok:</b>
+          <p>Nama Kelompok : EXPERION</p>
+          <li>(191110503) Fredy</li>
+          <li>(191110759) Eduardo</li>
+          <li>(191110520) Frederick</li>
+        </section>
+
+        <section>
+          <h3><b>Website Download & Streaming Aniime</b></h3>
+        </section>
+
+        <!-- Example of nested vertical slides -->
+        <section>
+          <section>
+            <b>Product Backlog</b>
+            <br />
+            <table style="font-size: 25px; width: 100%">
+              <tr>
+                <th style="text-align: center">Backlog item</th>
+                <th style="text-align: center">Estimate</th>
+              </tr>
+              <tr>
+                <td>
+                  Sebagai seorang user saya ingin mengetahui anime apa saja yang
+                  ada
+                </td>
+                <td style="text-align: center">2</td>
+              </tr>
+              <tr>
+                <td>
+                  Sebagai seorang user saya ingin melihat deskripsi anime yang
+                  saya tonton
+                </td>
+                <td style="text-align: center">2</td>
+              </tr>
+              <tr>
+                <td>
+                  Sebagai seorang user saya ingin menonton secara streaming
+                </td>
+                <td style="text-align: center">5</td>
+              </tr>
+              <tr>
+                <td>
+                  Sebagai seorang user saya ingin melihat rating anime dari
+                  semua musim mulai dari tertinggi hingga terendah.
+                </td>
+                <td style="text-align: center">2</td>
+              </tr>
+              <tr>
+                <td>
+                  Sebagai seorang user saya ingin mendapatkan rekomendasi film
+                </td>
+                <td style="text-align: center">1</td>
+              </tr>
+              <tr>
+                <td>
+                  Sebagai seorang user, saya ingin melakukan pencarian judul
+                  film
+                </td>
+                <td style="text-align: center">2</td>
+              </tr>
+              <tr>
+                <td>
+                  Sebagai seorang saya ingin melakukan filter berdasarkan
+                  kategori genre & musim
+                </td>
+                <td style="text-align: center">3</td>
+              </tr>
+              <tr>
+                <td>
+                  Sebagai seorang user saya ingin mendapatkan kalender
+                  penayangan film
+                </td>
+                <td style="text-align: center">2</td>
+              </tr>
+              <tr>
+                <td>Sebagai seorang user saya ingin melihat video trailer</td>
+                <td style="text-align: center">2</td>
+              </tr>
+              <tr>
+                <td>
+                  Sebagai seorang user saya ingin membuat dan masuk menggunakan
+                  akun saya untuk donwload, history, wishlist dan favorit
+                </td>
+                <td style="text-align: center">9</td>
+              </tr>
+              <td style="text-align: center">Total</td>
+              <td style="text-align: center">30</td>
+              <tr></tr>
+            </table>
+          </section>
+          <section>
+            <h4>
+              <b>User Story</b>
+            </h4>
+            <br />
+            <table style="font-size: 20px; width: 100%">
+              <tr>
+                <th style="text-align: center">User Type</th>
+                <th style="text-align: center">Epic</th>
+                <th style="text-align: center">User Story</th>
+              </tr>
+              <tr>
+                <td rowspan="8" align="center">Web User</td>
+                <td>Tampilan Homepage</td>
+                <td>Sebagai user tampilan home dan anime terupdate</td>
+              </tr>
+              <tr>
+                <td>Pencarian</td>
+                <td>
+                  Sebagai user, saya ingin melakuakn pencarian berdasarkan nama
+                  anime
+                </td>
+              </tr>
+              <tr>
+                <td>Filter</td>
+                <td>
+                  Sebagai user, saya ingin melihat list semua anime yang ada
+                  secara berurut
+                  <br />
+                  Sebagai user, saya ingin melakukan filter berdasarkan musim
+                  penayangan anime
+                  <br />
+                  Sebagai user, saya ingin melakukan filter berdasarkan kategori
+                  genre anime
+                  <br />
+                  Sebagai user, saya ingin melakukan filter berdasarkan kalender
+                  penayangan anime ongoing
+                </td>
+              </tr>
+              <tr>
+                <td>Trailer</td>
+                <td>
+                  Sebagai user, saya ingin melihat trailer dari anime musim
+                  depan yang akan tayang
+                </td>
+              </tr>
+              <tr>
+                <td>Top Anime</td>
+                <td>
+                  Sebagai user, saya ingin melihat anime yang memiliki rating
+                  tertinggi
+                </td>
+              </tr>
+              <tr>
+                <td>Rekomendasi</td>
+                <td>Sebagai user, saya ingin mendapatkan rekomendasi anime</td>
+              </tr>
+              <tr></tr>
+            </table>
+          </section>
+          <section>
+            <h4>
+              <b>User Story</b>
+            </h4>
+            <br />
+            <table style="font-size: 20px; width: 100%">
+              <tr>
+                <th style="text-align: center">User Type</th>
+                <th style="text-align: center">Epic</th>
+                <th style="text-align: center">User Story</th>
+              </tr>
+              <tr>
+                <td rowspan="8" align="center">Web User</td>
+                <td>Anime</td>
+                <td>
+                  Sebagai user, saya ingin membaca deskripsi singkat tentanga
+                  anime tersebut
+                  <br />
+                  Sebagai user, saya ingin melakukan streaming anime tersebut
+                  <br />
+                  Sebagai user, saya ingin memasukkan anime tersebut ke wishlist
+                  dan favorite
+                  <br />
+                  Sebagai user, saya ingin mendownload anime tersebut
+                </td>
+              </tr>
+              <tr>
+                <td>Login</td>
+                <td>
+                  Sebagai user, saya ingin membuat akun
+                  <br />
+                  Sebagai user, saya ingin mereset password
+                  <br />
+                  Sebagai user, saya ingin bisa masuk dengan menggunakan
+                  username, email dan password
+                  <br />
+                  Sebagai user, saya ingin bisa masuk melalui akun google
+                </td>
+              </tr>
+              <tr>
+                <td>Akun</td>
+                <td>
+                  Sebagai user, saya ingin bisa log out dari akun
+                  <br />
+                  Sebagai user, saya ingin melihat history tontonan
+                  <br />
+                  Sebagai user, saya ingin melihat wishlist yang sudah dibuat
+                  <br />
+                  Sebagai user, saya ingin melihat favorite yang sudah dipilih
+                </td>
+              </tr>
+              <tr></tr>
+            </table>
+          </section>
+        </section>
+
+        <section>
+          <h4><b>Homepage</b></h4>
+          <td>
+            <tr>
+              <img width="550px" height="400px" src="./img/homepage1.png" />
+              <img width="400px" height="500px" src="./img/homepage2.png" />
+            </tr>
+          </td>
+        </section>
+
+        <section>
+          <h4><b>Pencarian</b></h4>
+          <td>
+            <tr>
+              <img width="1000px" height="500px" src="./img/search.png" />
+            </tr>
+          </td>
+        </section>
+
+        <section>
+          <h4><b>Top Anime & Rekomendasi</b></h4>
+          <td>
+            <tr>
+              <img width="500px" height="250px" src="./img/topanime.png" />
+              <img width="500px" height="250px" src="./img/rekomendasi.png" />
+            </tr>
+          </td>
+        </section>
+
+        <section>
+          <h4><b>List Anime</b></h4>
+          <td>
+            <tr>
+              <img width="1000px" height="500px" src="./img/listanime.png" />
+            </tr>
+          </td>
+        </section>
+
+        <section>
+          <h4><b>Tampilan Anime & Download</b></h4>
+          <td>
+            <tr>
+              <img width="500px" height="250px" src="./img/anime.png" />
+              <img width="500px" height="250px" src="./img/download.png" />
+            </tr>
+          </td>
+        </section>
+        <section>
+          <h4><b>Streaming & Trailer</b></h4>
+          <td>
+            <tr>
+              <img width="500px" height="250px" src="./img/streaming.png" />
+              <img width="500px" height="250px" src="./img/trailer.png" />
+            </tr>
+          </td>
+        </section>
+        <section>
+          <h4><b>Musim</b></h4>
+          <td>
+            <tr>
+              <img width="500px" height="250px" src="./img/musim1.png" />
+              <img width="500px" height="250px" src="./img/musim2.png" />
+            </tr>
+          </td>
+        </section>
+
+        <section>
+          <h4><b>Genre</b></h4>
+          <td>
+            <tr>
+              <img width="500px" height="250px" src="./img/genre1.png" />
+              <img width="500px" height="250px" src="./img/genre2.png" />
+            </tr>
+          </td>
+        </section>
+
+        <section>
+          <h4><b>Kalender</b></h4>
+          <td>
+            <tr>
+              <img width="1000px" height="500px" src="./img/kalender.png" />
+            </tr>
+          </td>
+        </section>
+
+        <section>
+          <h4><b>Akun</b></h4>
+          <td>
+            <tr>
+              <img width="1000px" height="500px" src="./img/account.png" />
+            </tr>
+          </td>
+        </section>
+
+        <section>
+          <section>
+            <h4><b>Login</b></h4>
+            <td>
+              <tr>
+                <img width="1000px" height="500px" src="./img/login.png" />
+              </tr>
+            </td>
+          </section>
+          <section>
+            <h4><b>Register & Forget Password</b></h4>
+            <td>
+              <tr>
+                <img width="500px" height="250px" src="./img/register.png" />
+                <img width="500px" height="250px" src="./img/forgot.png" />
+              </tr>
+            </td>
+          </section>
+        </section>
+
+        <section>
+          <h4><b>History</b></h4>
+          <td>
+            <tr>
+              <img width="1000px" height="500px" src="./img/history.png" />
+            </tr>
+          </td>
+        </section>
+
+        <section>
+          <h4><b>Favorite & Wishlist</b></h4>
+          <td>
+            <tr>
+              <img width="500px" height="250px" src="./img/favorite.png" />
+              <img width="500px" height="250px" src="./img/wishlist.png" />
+            </tr>
+          </td>
+        </section>
+
+        <section>
+          <h4><b>Link</b></h4>
+          <td>
+            <tr>
+              <a href="https://bit.ly/Trello-TKPPL">Link Trello</a>
+              <br />
+              <a href="https://bit.ly/Figma-Web-TKPPL">Link Figma</a>
+            </tr>
+          </td>
+        </section>
+        <section>
+          <h4><b>Terima Kasih</b></h4>
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/search/search.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // Also available as an ES module, see:
+      // https://revealjs.com/initialization/
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        center: true,
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [
+          RevealZoom,
+          RevealNotes,
+          RevealSearch,
+          RevealMarkdown,
+          RevealHighlight,
+        ],
+      });
+    </script>
+  </body>
+</html>
