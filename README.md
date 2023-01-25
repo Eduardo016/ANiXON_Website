@@ -5,7 +5,7 @@ ANiXON Website merupakan website untuk melakukan streaming dan mendownload anime
 <img src="Img README/blog.jpg"><br>
 
 Tampilan awal setelah memasuki website:
-<img src="Img README/hp1.jpg" width="200px"><br> <img src="Img README/hp2.jpg" style="float:right; width:200px"><br>
+<img src="Img README/hp1.jpg" width="200px"> <img src="Img README/hp2.jpg" style="float:right; width:200px">
 
 ANiXON Website menyediakan berbagai fitur, diantaranya:
 -List Anime
