@@ -81,4 +81,4 @@ ANiXON Website menyediakan berbagai fitur, diantaranya:
 
 <img src="Img README/wishlist.jpg" width="200px">
 
-<p style="text-align:center"> All rights reserved | This template is made by EXPERION </p>
+<p align="center"> All rights reserved | This template is made by EXPERION </p>
